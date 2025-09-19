@@ -55,7 +55,6 @@ function App() {
         </div>
 
         <div className="space-y-4">
-          {/* Length */}
           <div>
             <label className="block mb-1 font-semibold">Length: {length}</label>
             <input 
