@@ -38,7 +38,6 @@ function App() {
           ⚡Password Generator⚡
         </h1>
 
-        {/* Input + Copy */}
         <div className="flex shadow-lg rounded-xl overflow-hidden mb-6 border border-white/30">
           <input
             type="text"
@@ -55,7 +54,6 @@ function App() {
           </button>
         </div>
 
-        {/* Controls */}
         <div className="space-y-4">
           {/* Length */}
           <div>
@@ -70,7 +68,6 @@ function App() {
             /> 
           </div>
 
-          {/* Numbers */}
           <div className="flex items-center gap-2">
             <input 
               type="checkbox"
@@ -82,7 +79,6 @@ function App() {
             <label htmlFor="numberInput" className="cursor-pointer">Include Numbers</label>
           </div>
 
-          {/* Characters */}
           <div className="flex items-center gap-2">
             <input 
               type="checkbox"
